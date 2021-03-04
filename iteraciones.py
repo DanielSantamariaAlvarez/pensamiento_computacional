@@ -9,5 +9,17 @@ while contador_externo < 5:
             break
     contador_externo +=1
     contador_interno = 0
+
+#----- Funcion iter -------------------------------
+palabra_a_iterar = 'Hola_mundo'
+iterador = iter(palabra_a_iterar)
+print(next(iterador)) #imprime H
+print(next(iterador)) #imprime o
+print(next(iterador)) #imprime l
+print(next(iterador)) #imprime a
+#y así sucesivamente, guarda en que va la iteración
+
+
+
     
 
